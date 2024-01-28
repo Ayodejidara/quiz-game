@@ -35,7 +35,6 @@ func main() {
 	problems := parseRecords(records)
 
 	timer := time.NewTimer(time.Duration(*timeLimit) * time.Second)
-	_ = timer
 	//Initialize score keeper
 	score := 0
 
